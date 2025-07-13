@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lifewood | Redefining Data, Activating Intelligence</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="font-manrope bg-paper text-dark-serpent/90 antialiased">
+    <div class="page-transitioner fixed top-0 left-0 w-screen h-screen bg-dark-serpent z-[9998] transform scale-y-0 origin-bottom transition-transform duration-500 ease-in-out"></div>
+
+    <!-- Header -->
+    <header class="header fixed top-0 left-0 w-full z-50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center h-20">
+            <a href="index.html" class="nav-logo">
+                <img src="./assets/images/mainlogo.svg" alt="Lifewood Logo" class="h-10 md:h-12">
+            </a>
+            <div class="hidden md:flex space-x-10 items-center">
+                <a href="index.html" class="text-dark-serpent font-semibold relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[2px] after:bg-castleton">Home</a>
+                <a href="AboutUs.html" class="text-dark-serpent hover:text-castleton transition-colors duration-300">About Us</a>
+                <a href="Services.html" class="text-dark-serpent hover:text-castleton transition-colors duration-300">Services</a>
+                <a href="Contact.html" class="text-dark-serpent hover:text-castleton transition-colors duration-300">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="hamburger z-50">
+                    <span class="bar block w-6 h-0.5 bg-dark-serpent mb-1.5 transition-all duration-300 ease-in-out"></span>
+                    <span class="bar block w-6 h-0.5 bg-dark-serpent mb-1.5 transition-all duration-300 ease-in-out"></span>
+                    <span class="bar block w-6 h-0.5 bg-dark-serpent transition-all duration-300 ease-in-out"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div class="nav-menu fixed top-0 -left-full w-full h-screen bg-dark-serpent/95 backdrop-blur-lg flex flex-col justify-center items-center space-y-8 transition-all duration-500 ease-in-out md:hidden">
+            <a href="index.html" class="text-white text-2xl font-bold">Home</a>
+            <a href="AboutUs.html" class="text-white text-2xl font-bold">About Us</a>
+            <a href="Services.html" class="text-white text-2xl font-bold">Services</a>
+            <a href="Contact.html" class="text-white text-2xl font-bold">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="relative h-screen flex items-center justify-center text-white">
+            <div class="absolute inset-0 bg-dark-serpent/50 z-10"></div>
+            <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover">
+                <source src="./assets/video/AI-bg.mp4" type="video/mp4">
+            </video>
+            <div class="container mx-auto px-6 text-center relative z-20">
+                <h1 class="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-4 animate-on-scroll">Empowering the Future of Data with AI Precision</h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto mb-8 animate-on-scroll" style="transition-delay: 150ms;">Harness cutting-edge artificial intelligence to transform the way your data works for you.</p>
+                <div class="flex flex-wrap justify-center gap-4 animate-on-scroll" style="transition-delay: 300ms;">
+                    <a href="Services.html" class="bg-castleton text-white px-8 py-3 rounded-lg font-semibold hover:bg-dark-serpent transition-all duration-300 transform hover:scale-105">Explore Solutions</a>
+                    <a href="Contact.html" class="bg-white/20 backdrop-blur-sm border border-white/50 text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-dark-serpent transition-all duration-300 transform hover:scale-105">Talk to Us</a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Key Stats Section with Animated Counters -->
+        <section class="py-16 bg-sea-salt">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+                    <div class="animate-on-scroll">
+                        <span class="number-counter text-4xl md:text-5xl font-bold text-castleton" data-target="99">0</span><span class="text-4xl md:text-5xl font-bold text-castleton">.8%</span>
+                        <p class="text-lg font-semibold mt-2">Data Accuracy Rate</p>
+                    </div>
+                    <div class="animate-on-scroll" style="transition-delay: 150ms;">
+                        <span class="number-counter text-4xl md:text-5xl font-bold text-castleton" data-target="50">0</span><span class="text-4xl md:text-5xl font-bold text-castleton">M+</span>
+                        <p class="text-lg font-semibold mt-2">Data Points Processed Annually</p>
+                    </div>
+                    <div class="animate-on-scroll" style="transition-delay: 300ms;">
+                        <span class="number-counter text-4xl md:text-5xl font-bold text-castleton" data-target="20">0</span><span class="text-4xl md:text-5xl font-bold text-castleton">+</span>
+                        <p class="text-lg font-semibold mt-2">Industries Served</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+     <section class="py-16 md:py-24 bg-paper">
+    <div class="container mx-auto px-6">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <h2 class="text-3xl md:text-4xl font-bold mb-4 animate-on-scroll">AI Solutions Across Industries</h2>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+            <!-- Healthcare Video Card -->
+            <div class="bg-white group rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 animate-on-scroll">
+                <div class="bg-black w-full h-64 md:h-80 overflow-hidden">
+                    <video autoplay muted loop playsinline class="w-full h-full object-cover">
+                        <source src="./assets/video/health.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Healthcare</h3>
+                    <p>Enhancing diagnostics and patient data management with secure, HIPAA-compliant AI solutions.</p>
+                </div>
+            </div>
+
+            <!-- Finance Video Card -->
+            <div class="bg-white group rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 animate-on-scroll" style="transition-delay: 150ms;">
+                <div class="bg-black w-full h-64 md:h-80 overflow-hidden">
+                    <video autoplay muted loop playsinline class="w-full h-full object-cover">
+                        <source src="./assets/video/finance.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Finance</h3>
+                    <p>Automating fraud detection, risk assessment, and compliance reporting with precision data.</p>
+                </div>
+            </div>
+
+            <!-- Retail Video Card -->
+            <div class="bg-white group rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 animate-on-scroll" style="transition-delay: 300ms;">
+                <div class="bg-black w-full h-64 md:h-80 overflow-hidden">
+                    <video autoplay muted loop playsinline class="w-full h-full object-cover">
+                        <source src="./assets/video/retail.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Retail</h3>
+                    <p>Powering personalized customer experiences and supply chain optimization.</p>
+                </div>
+            </div>
+
+            <!-- Technology Video Card -->
+            <div class="bg-white group rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300 animate-on-scroll" style="transition-delay: 450ms;">
+                <div class="bg-black w-full h-64 md:h-80 overflow-hidden">
+                    <video autoplay muted loop playsinline class="w-full h-full object-cover">
+                        <source src="./assets/video/tech.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-2">Technology</h3>
+                    <p>Accelerating ML model development with high-quality, diverse training datasets.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        
+        <!-- Explainer Video Section (Standard embed - NOT muted) -->
+        <section class="py-16 md:py-24 bg-dark-serpent text-white">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 animate-on-scroll">See Lifewood in Action</h2>
+                <div class="max-w-5xl mx-auto rounded-lg overflow-hidden shadow-2xl mb-8 animate-on-scroll" style="transition-delay: 150ms;">
+                    <div class="aspect-w-16 aspect-h-9">
+                        <iframe src="https://www.youtube.com/embed/3-FgnVjYJVA?si=jfxpioJ240zS2bFB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen class="w-full h-full"></iframe>
+                    </div>
+                </div>
+                <a href="https://youtube.com/@lifewooddatatechnology?si=D4-wAVtHZJX3UE_c" target="_blank" rel="noopener noreferrer" class="bg-castleton text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-dark-serpent transition-all duration-300 transform hover:scale-105 animate-on-scroll" style="transition-delay: 300ms;">
+                    Visit Our YouTube Channel
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark-serpent text-white/70 pt-16 pb-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Column 1: Logo & Socials -->
+                <div>
+                    <img src="./assets/images/logofoot.svg" alt="Lifewood Logo White" class="h-10 mb-4">
+                    <p class="mb-6">Activating the future of data and artificial intelligence.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white/70 hover:text-white transition-colors"><i class="fab fa-twitter text-xl"></i></a>
+                        <a href="#" class="text-white/70 hover:text-white transition-colors"><i class="fab fa-linkedin-in text-xl"></i></a>
+                        <a href="#" class="text-white/70 hover:text-white transition-colors"><i class="fab fa-github text-xl"></i></a>
+                    </div>
+                </div>
+                <!-- Column 2: Company -->
+                <div>
+                    <h4 class="font-bold text-white mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="AboutUs.html" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="Services.html" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                    </ul>
+                </div>
+                <!-- Column 3: Support -->
+                <div>
+                    <h4 class="font-bold text-white mb-4">Support</h4>
+                     <ul class="space-y-2">
+                        <li><a href="Contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="Contact.html#faq" class="hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!-- Column 4: Contact -->
+                <div>
+                    <h4 class="font-bold text-white mb-4">Contact Info</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start"><i class="fa-solid fa-location-dot text-castleton mt-1 mr-3"></i><span>IT Park, Cebu City</span></li>
+                        <li class="flex items-start"><i class="fa-solid fa-envelope text-castleton mt-1 mr-3"></i><a href="mailto:contact@lifewood.tech" class="hover:text-white transition-colors">contact@lifewood.tech</a></li>
+                        <li class="flex items-start"><i class="fa-solid fa-phone text-castleton mt-1 mr-3"></i><a href="tel:+15551234567" class="hover:text-white transition-colors">+1 (555) 123-4567</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-white/20 pt-6 text-center text-sm">
+                <p>© 2024 Lifewood. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>

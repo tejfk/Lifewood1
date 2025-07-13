@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Lifewood</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="font-manrope bg-paper text-dark-serpent/90 antialiased">
+    <div class="page-transitioner fixed top-0 left-0 w-screen h-screen bg-dark-serpent z-[9998] transform scale-y-0 origin-bottom transition-transform duration-500 ease-in-out"></div>
+    
+    <!-- Header -->
+    <header class="header fixed top-0 left-0 w-full z-50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center h-20">
+            <a href="index.html" class="nav-logo">
+                <img src="./assets/images/mainlogo.svg" alt="Lifewood Logo" class="h-10 md:h-12">
+            </a>
+            <div class="hidden md:flex space-x-10 items-center">
+                <a href="index.html" class="text-dark-serpent hover:text-castleton transition-colors duration-300">Home</a>
+                <a href="AboutUs.html" class="text-dark-serpent hover:text-castleton transition-colors duration-300">About Us</a>
+                <a href="Services.html" class="text-dark-serpent hover:text-castleton transition-colors duration-300">Services</a>
+                <a href="Contact.html" class="text-dark-serpent font-semibold relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[2px] after:bg-castleton">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="hamburger z-50">
+                     <span class="bar block w-6 h-0.5 bg-dark-serpent mb-1.5 transition-all duration-300 ease-in-out"></span>
+                     <span class="bar block w-6 h-0.5 bg-dark-serpent mb-1.5 transition-all duration-300 ease-in-out"></span>
+                     <span class="bar block w-6 h-0.5 bg-dark-serpent transition-all duration-300 ease-in-out"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div class="nav-menu fixed top-0 -left-full w-full h-screen bg-dark-serpent/95 backdrop-blur-lg flex flex-col justify-center items-center space-y-8 transition-all duration-500 ease-in-out md:hidden">
+            <a href="index.html" class="text-white text-2xl font-bold">Home</a>
+            <a href="AboutUs.html" class="text-white text-2xl font-bold">About Us</a>
+            <a href="Services.html" class="text-white text-2xl font-bold">Services</a>
+            <a href="Contact.html" class="text-white text-2xl font-bold">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="bg-sea-salt pt-32 pb-16 text-center">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 animate-on-scroll">Get in Touch</h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto animate-on-scroll" style="transition-delay: 150ms;">We're here to answer your questions and help you start your data transformation journey.</p>
+            </div>
+        </section>
+
+        <!-- Contact Form & Map Section -->
+        <section class="py-16 md:py-24 bg-paper">
+            <div class="container mx-auto px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-5 gap-12">
+                    <!-- Form -->
+                    <div class="lg:col-span-3 bg-white p-8 rounded-lg shadow-xl animate-on-scroll">
+                        <h2 class="text-2xl font-bold mb-6">Send Us a Message</h2>
+                        <form id="contact-form" novalidate>
+                            <div class="mb-4">
+                                <label for="name" class="block font-semibold mb-1">Full Name</label>
+                                <input type="text" id="name" name="name" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-castleton focus:border-transparent transition">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="block font-semibold mb-1">Email Address</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-castleton focus:border-transparent transition">
+                            </div>
+                             <div class="mb-4">
+                                <label for="subject" class="block font-semibold mb-1">Subject</label>
+                                <input type="text" id="subject" name="subject" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-castleton focus:border-transparent transition">
+                            </div>
+                            <div class="mb-6">
+                                <label for="message" class="block font-semibold mb-1">Your Message</label>
+                                <textarea id="message" name="message" rows="5" required class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-castleton focus:border-transparent transition"></textarea>
+                            </div>
+                            <button type="submit" class="w-full bg-castleton text-white px-8 py-3 rounded-lg font-semibold hover:bg-dark-serpent transition-colors">Submit Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Map & Info -->
+                    <div class="lg:col-span-2 animate-on-scroll" style="transition-delay: 150ms;">
+                        <div class="rounded-lg overflow-hidden shadow-xl mb-6">
+                            <div class="aspect-w-16 aspect-h-9">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15677.03683344668!2d123.90098687797754!3d10.33005374528113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a99920bf53a09f%3A0x95c772d5b3671343!2sCebu%20I.T.%20Park!5e0!3m2!1sen!2sph!4v1698389657688!5m2!1sen!2sph" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="w-full h-full"></iframe>
+                            </div>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-4">Our Office</h3>
+                        <div class="space-y-4">
+                            <p class="flex items-start"><i class="fa-solid fa-location-dot text-castleton w-5 mt-1 mr-3"></i><span>IT Park, Cebu City, Philippines</span></p>
+                            <p class="flex items-start"><i class="fa-solid fa-clock text-castleton w-5 mt-1 mr-3"></i><span>Mon - Fri, 9:00 AM - 6:00 PM (PHT)</span></p>
+                            <p class="flex items-start"><i class="fa-solid fa-envelope text-castleton w-5 mt-1 mr-3"></i><a href="mailto:sales@lifewood.tech" class="hover:text-castleton">sales@lifewood.tech</a></p>
+                            <p class="flex items-start"><i class="fa-solid fa-headset text-castleton w-5 mt-1 mr-3"></i><a href="mailto:support@lifewood.tech" class="hover:text-castleton">support@lifewood.tech</a></p>
+                        </div>
+                         <a href="https://www.google.com/maps/dir/?api=1&destination=Cebu+IT+Park" target="_blank" class="mt-6 inline-block w-full text-center bg-dark-serpent text-white px-8 py-3 rounded-lg font-semibold hover:bg-castleton transition-colors">
+                            <i class="fas fa-directions mr-2"></i>Navigate to Lifewood
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark-serpent text-white/70 pt-16 pb-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Column 1: Logo & Socials -->
+                <div>
+                    <img src="./assets/images/logofoot.svg" alt="Lifewood Logo White" class="h-10 mb-4">
+                    <p class="mb-6">Activating the future of data and artificial intelligence.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white/70 hover:text-white transition-colors"><i class="fab fa-twitter text-xl"></i></a>
+                        <a href="#" class="text-white/70 hover:text-white transition-colors"><i class="fab fa-linkedin-in text-xl"></i></a>
+                        <a href="#" class="text-white/70 hover:text-white transition-colors"><i class="fab fa-github text-xl"></i></a>
+                    </div>
+                </div>
+                <!-- Column 2: Company -->
+                <div>
+                    <h4 class="font-bold text-white mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="AboutUs.html" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="Services.html" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                    </ul>
+                </div>
+                <!-- Column 3: Support -->
+                <div>
+                    <h4 class="font-bold text-white mb-4">Support</h4>
+                     <ul class="space-y-2">
+                        <li><a href="Contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="Contact.html#faq" class="hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <!-- Column 4: Contact -->
+                <div>
+                    <h4 class="font-bold text-white mb-4">Contact Info</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start"><i class="fa-solid fa-location-dot text-castleton mt-1 mr-3"></i><span>IT Park, Cebu City</span></li>
+                        <li class="flex items-start"><i class="fa-solid fa-envelope text-castleton mt-1 mr-3"></i><a href="mailto:contact@lifewood.tech" class="hover:text-white transition-colors">contact@lifewood.tech</a></li>
+                        <li class="flex items-start"><i class="fa-solid fa-phone text-castleton mt-1 mr-3"></i><a href="tel:+15551234567" class="hover:text-white transition-colors">+1 (555) 123-4567</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-white/20 pt-6 text-center text-sm">
+                <p>© 2024 Lifewood. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
