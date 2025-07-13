@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Lifewood</title>
+    <link rel="stylesheet" href="css/output.css">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="font-manrope bg-paper text-dark-serpent/90 antialiased">
+    <div class="page-transitioner fixed top-0 left-0 w-screen h-screen bg-dark-serpent z-[9998] transform scale-y-0 origin-bottom transition-transform duration-500 ease-in-out"></div>
+    
+    <!-- Header -->
+    <header class="header fixed top-0 left-0 w-full z-50 transition-all duration-300">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center h-20">
+            <a href="index.html" class="nav-logo">
+                <img src="./assets/images/mainlogo.svg" alt="Lifewood Logo" class="h-10 md:h-12">
+            </a>
+            <div class="hidden md:flex space-x-10 items-center">
+                <a href="index.html" class="text-dark-serpent hover:text-castleton transition-colors duration-300">Home</a>
+                <a href="AboutUs.html" class="text-dark-serpent font-semibold relative after:content-[''] after:absolute after:left-0 after:bottom-[-4px] after:w-full after:h-[2px] after:bg-castleton">About Us</a>
+                <a href="Services.html" class="text-dark-serpent hover:text-castleton transition-colors duration-300">Services</a>
+                <a href="Contact.html" class="text-dark-serpent hover:text-castleton transition-colors duration-300">Contact</a>
+            </div>
+            <div class="md:hidden">
+                <button class="hamburger z-50">
+                     <span class="bar block w-6 h-0.5 bg-dark-serpent mb-1.5 transition-all duration-300 ease-in-out"></span>
+                     <span class="bar block w-6 h-0.5 bg-dark-serpent mb-1.5 transition-all duration-300 ease-in-out"></span>
+                     <span class="bar block w-6 h-0.5 bg-dark-serpent transition-all duration-300 ease-in-out"></span>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div class="nav-menu fixed top-0 -left-full w-full h-screen bg-dark-serpent/95 backdrop-blur-lg flex flex-col justify-center items-center space-y-8 transition-all duration-500 ease-in-out md:hidden">
+            <a href="index.html" class="text-white text-2xl font-bold">Home</a>
+            <a href="AboutUs.html" class="text-white text-2xl font-bold">About Us</a>
+            <a href="Services.html" class="text-white text-2xl font-bold">Services</a>
+            <a href="Contact.html" class="text-white text-2xl font-bold">Contact</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="bg-sea-salt pt-32 pb-16 text-center">
+            <div class="container mx-auto px-6">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4 animate-on-scroll">The Minds Behind the Mission</h1>
+                <p class="text-lg md:text-xl max-w-3xl mx-auto animate-on-scroll" style="transition-delay: 150ms;">We are a collective of innovators, engineers, and strategists dedicated to activating the world's data.</p>
+            </div>
+        </section>
+
+        <!-- EXISTING Mission & Vision Section -->
+        <section class="py-16 md:py-24 bg-paper">
+            <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center animate-on-scroll">
+                    <i class="fas fa-rocket text-4xl text-castleton mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-2">Our Mission</h2>
+                    <p>To empower businesses and researchers with intelligent, accessible, and transformative data solutions that drive progress and uncover new possibilities.</p>
+                </div>
+                <div class="bg-white p-8 rounded-lg shadow-lg text-center animate-on-scroll" style="transition-delay: 150ms;">
+                    <i class="fas fa-eye text-4xl text-castleton mb-4"></i>
+                    <h2 class="text-2xl font-bold mb-2">Our Vision</h2>
+                    <p>To be the global leader in applied artificial intelligence, creating a future where data works seamlessly and intelligently for humanity.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- START: NEW CONTENT ADDITIONS FOR ABOUT US PAGE -->
+
+        <!-- The Lifewood DNA -->
+        <section class="py-16 md:py-24 bg-sea-salt">
+            <div class="container mx-auto px-6">
+                 <div class="text-center max-w-3xl mx-auto mb-12">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 animate-on-scroll">The Lifewood DNA</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center animate-on-scroll">
+                        <i class="fas fa-users text-4xl text-castleton mb-4"></i>
+                        <h3 class="font-bold text-2xl mb-2">People</h3>
+                        <p>Our team is our greatest asset, a diverse group of global experts dedicated to pushing the boundaries of AI with integrity and passion.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center animate-on-scroll" style="transition-delay: 150ms;">
+                        <i class="fas fa-cogs text-4xl text-castleton mb-4"></i>
+                        <h3 class="font-bold text-2xl mb-2">Process</h3>
+                        <p>We leverage a finely-tuned process combining AI efficiency with human oversight, ensuring unmatched quality and scalability.</p>
+                    </div>
+                    <div class="bg-white p-8 rounded-lg shadow-md text-center animate-on-scroll" style="transition-delay: 300ms;">
+                        <i class="fas fa-bullseye text-4xl text-castleton mb-4"></i>
+                        <h3 class="font-bold text-2xl mb-2">Purpose</h3>
+                        <p>Our purpose is to unlock the hidden potential in data, empowering our partners to build a smarter, more equitable future for everyone.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Company Timeline -->
+        <section class="py-16 md:py-24 bg-paper">
+            <div class="container mx-auto px-6">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-3xl md:text-4xl font-bold mb-4 animate-on-scroll">Our Journey of Innovation</h2>
+                </div>
+                <div class="relative max-w-3xl mx-auto">
+                    <!-- Vertical Line -->
+                    <div class="absolute left-3.5 top-0 h-full w-0.5 bg-castleton/30"></div>
+                    <!-- Timeline Item 1 -->
+                    <div class="relative pl-12 mb-12 animate-on-scroll">
+                        <div class="absolute left-0 top-1 w-8 h-8 rounded-full bg-castleton text-white flex items-center justify-center font-bold">1</div>
+                        <h3 class="font-bold text-xl text-dark-serpent pt-1">2018 - The Genesis</h3>
+                        <p>Lifewood is founded with a clear mission to democratize access to AI and sophisticated data analytics.</p>
+                    </div>
+                    <!-- Timeline Item 2 -->
+                    <div class="relative pl-12 mb-12 animate-on-scroll">
+                        <div class="absolute left-0 top-1 w-8 h-8 rounded-full bg-castleton text-white flex items-center justify-center font-bold">2</div>
+                        <h3 class="font-bold text-xl text-dark-serpent pt-1">2020 - Platform Launch</h3>
+                        <p>We launched our proprietary data labeling platform, securing our first enterprise client and setting a new industry benchmark.</p>
+                    </div>
+                    <!-- Timeline Item 3 -->
+                    <div class="relative pl-12 animate-on-scroll">
+                        <div class="absolute left-0 top-1 w-8 h-8 rounded-full bg-castleton text-white flex items-center justify-center font-bold">3</div>
+                        <h3 class="font-bold text-xl text-dark-serpent pt-1">2022 - Global Expansion</h3>
+                        <p>Our first international office opens, expanding our service offerings to include Business Intelligence and Genealogy tools.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    
+
+        <!-- Join Our Team -->
+        <section class="py-16 bg-dark-serpent">
+            <div class="container mx-auto px-6 text-center text-white">
+                <h2 class="text-3xl font-bold mb-4 animate-on-scroll">We're Hiring!</h2>
+                <p class="max-w-2xl mx-auto mb-8 animate-on-scroll" style="transition-delay: 150ms;">Are you passionate about AI and data? We're looking for talented individuals to join our global team. Help us shape the future of technology.</p>
+                <a href="#" class="bg-castleton text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-dark-serpent transition-all duration-300 transform hover:scale-105 animate-on-scroll" style="transition-delay: 300ms;">See Open Positions</a>
+            </div>
+        </section>
+
+        <!-- END: NEW CONTENT ADDITIONS FOR ABOUT US PAGE -->
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="bg-dark-serpent text-white/70 pt-16 pb-8">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div>
+                    <img src="./assets/images/logofoot.svg" alt="Lifewood Logo White" class="h-10 mb-4">
+                    <p class="mb-6">Activating the future of data and artificial intelligence.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-white/70 hover:text-white transition-colors"><i class="fab fa-twitter text-xl"></i></a>
+                        <a href="#" class="text-white/70 hover:text-white transition-colors"><i class="fab fa-linkedin-in text-xl"></i></a>
+                        <a href="#" class="text-white/70 hover:text-white transition-colors"><i class="fab fa-github text-xl"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white mb-4">Company</h4>
+                    <ul class="space-y-2">
+                        <li><a href="AboutUs.html" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="Services.html" class="hover:text-white transition-colors">Services</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Careers</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Blog</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white mb-4">Support</h4>
+                     <ul class="space-y-2">
+                        <li><a href="Contact.html" class="hover:text-white transition-colors">Contact Us</a></li>
+                        <li><a href="Contact.html#faq" class="hover:text-white transition-colors">FAQ</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Documentation</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-bold text-white mb-4">Contact Info</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start"><i class="fa-solid fa-location-dot text-castleton mt-1 mr-3"></i><span>IT Park, Cebu City</span></li>
+                        <li class="flex items-start"><i class="fa-solid fa-envelope text-castleton mt-1 mr-3"></i><a href="mailto:contact@lifewood.tech" class="hover:text-white transition-colors">contact@lifewood.tech</a></li>
+                        <li class="flex items-start"><i class="fa-solid fa-phone text-castleton mt-1 mr-3"></i><a href="tel:+15551234567" class="hover:text-white transition-colors">+1 (555) 123-4567</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="mt-12 border-t border-white/20 pt-6 text-center text-sm">
+                <p>© 2024 Lifewood. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
