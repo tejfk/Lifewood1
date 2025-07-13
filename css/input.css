@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add any custom base styles or components here if needed */
+body {
+    @apply font-manrope bg-paper text-dark-serpent/90 antialiased;
+}
+
+.scrolled {
+    @apply bg-paper/90 backdrop-blur-md shadow-lg;
+}
+
+/* Page Transitioner Effect */
+body.is-transitioning .page-transitioner {
+    @apply scale-y-100;
+}
+
+/* Hamburger Active State */
+.hamburger.active .bar:nth-child(1) {
+    @apply translate-y-2 rotate-45;
+}
+.hamburger.active .bar:nth-child(2) {
+    @apply opacity-0;
+}
+.hamburger.active .bar:nth-child(3) {
+    @apply -translate-y-2 -rotate-45;
+}
+
+/* Animation class for scroll trigger */
+.animate-on-scroll {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+.animate-on-scroll.is-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
